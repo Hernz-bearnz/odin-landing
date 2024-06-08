@@ -1,0 +1,22 @@
+.right-links, left-links{
+    display: flex;
+    gap: 20px;
+    flex: 0 1 auto;
+}
+body{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    gap: 1200px;
+}
+.right-links{
+    margin-right:50px ;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
