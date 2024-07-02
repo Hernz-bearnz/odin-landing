@@ -52,9 +52,11 @@ h1{
     margin-bottom: -10px;
     font-weight: bolder;
 }
-img{
-    max-width: 700px;
+.hero img{
+    width: auto;
+    max-height: 270px;
     flex: 0 1 auto;
+    margin-bottom: 200px;
 }
 .Hero-button{
     border-radius: 10px;
@@ -65,4 +67,17 @@ img{
     color: #F9FAF8;
     height: 35px;
     font-weight: bold;
+}
+.random{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.random h1{
+    color: #1f2937;
+    align-self: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    font-size: 36px;
+    font-weight: 900;
 }
